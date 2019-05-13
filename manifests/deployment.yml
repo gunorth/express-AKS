@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
         - name: guyexpressaks 
-          image: shasb.azurecr.io/guyexpressaks 
+          image: gunorthexpressaks.azurecr.io/guyexpressaks 
           ports:
           - containerPort: 3000
