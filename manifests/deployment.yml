@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
         - name: guyexpressaks 
-          image: gunorthexpressaks.azurecr.io/expressaks 
+          image: testjte2019acr.azurecr.io/expressaks 
           ports:
           - containerPort: 3000
