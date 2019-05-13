@@ -1,16 +1,16 @@
 apiVersion : apps/v1beta1
 kind: Deployment
 metadata:
-  name: gopinathchexpressaks 
+  name: guyexpressaks 
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        app: gopinathchexpressaks 
+        app: guyexpressaks 
     spec:
       containers:
-        - name: gopinathchexpressaks 
-          image: shasb.azurecr.io/gopinathchexpressaks 
+        - name: guyexpressaks 
+          image: shasb.azurecr.io/guyexpressaks 
           ports:
           - containerPort: 3000
